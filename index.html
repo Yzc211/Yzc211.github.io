@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你的名字 | 个人学习主页</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #1f2937;
+        --subtle: #4b5563;
+        --accent: #2563eb;
+        --line: #e5e7eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.7;
+      }
+
+      .container {
+        width: min(980px, 92%);
+        margin: 0 auto;
+        padding: 40px 0 80px;
+      }
+
+      header {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 28px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--subtle);
+      }
+
+      .link-row {
+        margin-top: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .link-row a {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      main {
+        margin-top: 24px;
+        display: grid;
+        gap: 16px;
+      }
+
+      section {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 22px 24px;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.2rem;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      .note {
+        color: var(--subtle);
+      }
+
+      footer {
+        margin-top: 18px;
+        color: var(--subtle);
+        font-size: 0.92rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>你的姓名（可替换）</h1>
+        <p class="subtitle">学校 / 专业 / 年级（可替换）</p>
+        <p class="note">欢迎来到我的个人学习主页。这里会持续更新我的学习方向、项目与成果。</p>
+        <div class="link-row">
+          <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&authuser=1&user=NsGJYVoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="#">邮箱（待填写）</a>
+          <a href="#">GitHub（待填写）</a>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <h2>个人简介</h2>
+          <p>
+            这里填写你的个人简介（研究背景、学习经历、感兴趣的问题）。建议 4~6
+            句话，突出你当前正在做什么以及未来计划。
+          </p>
+        </section>
+
+        <section>
+          <h2>研究/学习兴趣</h2>
+          <ul>
+            <li>方向 1（例如：机器学习 / 数据挖掘 / 计算机视觉）</li>
+            <li>方向 2（可替换）</li>
+            <li>方向 3（可替换）</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>论文与成果（可参考 Scholar 同步更新）</h2>
+          <ul>
+            <li>论文标题 A，会议/期刊，年份，<span class="note">作者顺序、链接待补充</span></li>
+            <li>论文标题 B，会议/期刊，年份，<span class="note">可附 PDF / Code / DOI</span></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>项目与实践</h2>
+          <ul>
+            <li>项目 1：项目简介 + 你负责的部分 + 技术栈 + 链接</li>
+            <li>项目 2：项目简介 + 结果/指标</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>联系方式</h2>
+          <ul>
+            <li>邮箱：your_email@example.com</li>
+            <li>GitHub：github.com/your_id</li>
+            <li>其他：个人博客 / 微信公众号 / 领英（按需）</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>最后更新：2026-10（可手动修改）</footer>
+    </div>
+  </body>
+</html>
