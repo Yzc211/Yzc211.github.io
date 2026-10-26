@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>你的名字 | 个人学习主页</title>
+    <title>余哲晨 | 个人主页</title>
     <style>
       :root {
         color-scheme: light;
@@ -130,117 +130,102 @@
     <div class="container">
       <header>
         <div class="top-row">
-          <h1 data-i18n="name">你的姓名（可替换）</h1>
+          <h1 data-i18n="name">余哲晨</h1>
           <div class="lang-switch" role="group" aria-label="language switch">
             <button type="button" data-lang="zh" class="active">中文</button>
             <button type="button" data-lang="en">EN</button>
           </div>
         </div>
 
-        <p class="subtitle" data-i18n="subtitle">学校 / 专业 / 年级（可替换）</p>
-        <p class="note" data-i18n="welcome">欢迎来到我的个人学习主页。这里会持续更新我的学习方向、项目与成果。</p>
+        <p class="subtitle" data-i18n="subtitle">浙江师范大学｜计算机视觉研究者</p>
+        <p class="note" data-i18n="welcome">欢迎来到我的个人主页。这里记录我的研究方向与学术成果。</p>
         <div class="link-row">
           <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&authuser=1&user=NsGJYVoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-          <a href="#" data-i18n="emailLink">邮箱（待填写）</a>
-          <a href="#" data-i18n="githubLink">GitHub（待填写）</a>
+          <a href="mailto:yzc1201@zjnu.edu.cn" data-i18n="emailLink">邮箱</a>
+          <a href="https://github.com/Yzc211" target="_blank" rel="noopener noreferrer" data-i18n="githubLink">GitHub</a>
         </div>
       </header>
 
       <main>
         <section>
           <h2 data-i18n="aboutTitle">个人简介</h2>
-          <p data-i18n="aboutBody">这里填写你的个人简介（研究背景、学习经历、感兴趣的问题）。建议 4~6 句话，突出你当前正在做什么以及未来计划。</p>
+          <p data-i18n="aboutBody">我来自浙江师范大学，主要关注计算机视觉领域的问题，研究兴趣包括视觉-语言跟踪与目标检测。我的研究工作聚焦于利用深度学习和 Transformer 等方法理解视觉内容，并持续探索目标跟踪与检测技术。</p>
         </section>
 
         <section>
           <h2 data-i18n="interestTitle">研究/学习兴趣</h2>
           <ul>
-            <li data-i18n="interest1">方向 1（例如：机器学习 / 数据挖掘 / 计算机视觉）</li>
-            <li data-i18n="interest2">方向 2（可替换）</li>
-            <li data-i18n="interest3">方向 3（可替换）</li>
+            <li data-i18n="interest1">计算机视觉（Computer Vision）</li>
+            <li data-i18n="interest2">视觉-语言跟踪（Visual-Language Tracking）</li>
+            <li data-i18n="interest3">目标检测（Object Detection）</li>
           </ul>
         </section>
 
         <section>
           <h2 data-i18n="pubTitle">论文与成果（可参考 Scholar 同步更新）</h2>
           <ul>
-            <li data-i18n="pub1">论文标题 A，会议/期刊，年份，作者顺序、链接待补充</li>
-            <li data-i18n="pub2">论文标题 B，会议/期刊，年份，可附 PDF / Code / DOI</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 data-i18n="projectTitle">项目与实践</h2>
-          <ul>
-            <li data-i18n="project1">项目 1：项目简介 + 你负责的部分 + 技术栈 + 链接</li>
-            <li data-i18n="project2">项目 2：项目简介 + 结果/指标</li>
+            <li>
+              <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=NsGJYVoAAAAJ&authuser=1&citation_for_view=NsGJYVoAAAAJ:u5HHmVD_uO8C" target="_blank" rel="noopener noreferrer" data-i18n="pub1">基于 Transformer 的单目标跟踪研究进展</a>
+              <span data-i18n="pub1Meta">｜张大伟，徐东升，余哲晨，等｜模式识别与人工智能，39(4): 348-378</span>
+            </li>
           </ul>
         </section>
 
         <section>
           <h2 data-i18n="contactTitle">联系方式</h2>
           <ul>
-            <li data-i18n="contact1">邮箱：your_email@example.com</li>
-            <li data-i18n="contact2">GitHub：github.com/your_id</li>
-            <li data-i18n="contact3">其他：个人博客 / 微信公众号 / 领英（按需）</li>
+            <li data-i18n="contact1">邮箱：yzc1201@zjnu.edu.cn</li>
+            <li data-i18n="contact2">GitHub：github.com/Yzc211</li>
           </ul>
         </section>
       </main>
 
-      <footer data-i18n="footer">最后更新：2026-10（可手动修改）</footer>
+      <footer data-i18n="footer">最后更新：2026-10</footer>
     </div>
 
     <script>
       const translations = {
         zh: {
-          title: "你的名字 | 个人学习主页",
-          name: "你的姓名（可替换）",
-          subtitle: "学校 / 专业 / 年级（可替换）",
-          welcome: "欢迎来到我的个人学习主页。这里会持续更新我的学习方向、项目与成果。",
-          emailLink: "邮箱（待填写）",
-          githubLink: "GitHub（待填写）",
+          title: "余哲晨 | 个人主页",
+          name: "余哲晨",
+          subtitle: "浙江师范大学｜计算机视觉研究者",
+          welcome: "欢迎来到我的个人主页。这里记录我的研究方向与学术成果。",
+          emailLink: "邮箱",
+          githubLink: "GitHub",
           aboutTitle: "个人简介",
-          aboutBody: "这里填写你的个人简介（研究背景、学习经历、感兴趣的问题）。建议 4~6 句话，突出你当前正在做什么以及未来计划。",
+          aboutBody: "我来自浙江师范大学，主要关注计算机视觉领域的问题，研究兴趣包括视觉-语言跟踪与目标检测。我的研究工作聚焦于利用深度学习和 Transformer 等方法理解视觉内容，并持续探索目标跟踪与检测技术。",
           interestTitle: "研究/学习兴趣",
-          interest1: "方向 1（例如：机器学习 / 数据挖掘 / 计算机视觉）",
-          interest2: "方向 2（可替换）",
-          interest3: "方向 3（可替换）",
+          interest1: "计算机视觉（Computer Vision）",
+          interest2: "视觉-语言跟踪（Visual-Language Tracking）",
+          interest3: "目标检测（Object Detection）",
           pubTitle: "论文与成果（可参考 Scholar 同步更新）",
-          pub1: "论文标题 A，会议/期刊，年份，作者顺序、链接待补充",
-          pub2: "论文标题 B，会议/期刊，年份，可附 PDF / Code / DOI",
-          projectTitle: "项目与实践",
-          project1: "项目 1：项目简介 + 你负责的部分 + 技术栈 + 链接",
-          project2: "项目 2：项目简介 + 结果/指标",
+          pub1: "基于 Transformer 的单目标跟踪研究进展",
+          pub1Meta: "｜张大伟，徐东升，余哲晨，等｜模式识别与人工智能，39(4): 348-378",
           contactTitle: "联系方式",
-          contact1: "邮箱：your_email@example.com",
-          contact2: "GitHub：github.com/your_id",
-          contact3: "其他：个人博客 / 微信公众号 / 领英（按需）",
-          footer: "最后更新：2026-10（可手动修改）"
+          contact1: "邮箱：yzc1201@zjnu.edu.cn",
+          contact2: "GitHub：github.com/Yzc211",
+          footer: "最后更新：2026-10"
         },
         en: {
-          title: "Your Name | Personal Learning Homepage",
-          name: "Your Name (Editable)",
-          subtitle: "University / Major / Grade (Editable)",
-          welcome: "Welcome to my personal learning homepage. I will keep updating my interests, projects, and outcomes here.",
-          emailLink: "Email (to be filled)",
-          githubLink: "GitHub (to be filled)",
+          title: "Yu ZheChen | Personal Homepage",
+          name: "Yu ZheChen",
+          subtitle: "Zhejiang Normal University | Computer Vision Researcher",
+          welcome: "Welcome to my personal homepage, where I share my research interests and academic work.",
+          emailLink: "Email",
+          githubLink: "GitHub",
           aboutTitle: "About Me",
-          aboutBody: "Write your profile here (research background, learning experience, and topics of interest). 4-6 sentences are recommended.",
+          aboutBody: "I am affiliated with Zhejiang Normal University and work on problems in computer vision, with research interests in visual-language tracking and object detection. My work explores deep learning and Transformer-based methods for visual understanding, tracking, and detection.",
           interestTitle: "Research / Learning Interests",
-          interest1: "Interest 1 (e.g., Machine Learning / Data Mining / Computer Vision)",
-          interest2: "Interest 2 (Editable)",
-          interest3: "Interest 3 (Editable)",
+          interest1: "Computer Vision",
+          interest2: "Visual-Language Tracking",
+          interest3: "Object Detection",
           pubTitle: "Publications & Outputs (sync with Scholar)",
-          pub1: "Paper A, Venue/Journal, Year, author order and link to be added",
-          pub2: "Paper B, Venue/Journal, Year, optional PDF / Code / DOI",
-          projectTitle: "Projects & Practice",
-          project1: "Project 1: summary + your role + tech stack + link",
-          project2: "Project 2: summary + results/metrics",
+          pub1: "Research Progress on Transformer-Based Single Object Tracking",
+          pub1Meta: " | Dawei Zhang, Dongsheng Xu, Zhechen Yu, et al. | Pattern Recognition and Artificial Intelligence, 39(4): 348-378",
           contactTitle: "Contact",
-          contact1: "Email: your_email@example.com",
-          contact2: "GitHub: github.com/your_id",
-          contact3: "Others: Blog / WeChat public account / LinkedIn (optional)",
-          footer: "Last updated: 2026-10 (editable)"
+          contact1: "Email: yzc1201@zjnu.edu.cn",
+          contact2: "GitHub: github.com/Yzc211",
+          footer: "Last updated: 2026-10"
         }
       };
 
